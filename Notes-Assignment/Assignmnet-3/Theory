@@ -1,0 +1,21 @@
+**_What is JSX?_**
+JSX is a Javascript Extension Syntax used in React to easily write HTML(not pure HTML it's like html syntax) and Javascript together.
+example -> const jsx = <h1>This is JSX</h1>
+This is simple JSX code in React.
+
+**_Superpowers of JSX_**
+It simply makes code easy to write and understand,improve readability as well. It helps too in protecting our application from XSS attacks.
+
+**_Role of type attribute in script tag? What options can i use there?_**
+The type attribute specifies the type of the script. The type attribute identifies the content between the script tags.
+OPTIONS are :
+application/javascript
+application/ecmascript
+module
+
+**_{TitleComponent} vs {TitleComponent/} vs {TitleComponent} vs {/TitleComponent} in JSX_**
+{TitleComponent} - Value contained in TItleComponent can be rendered within curly braces by placing TitleComponent within it. {}
+
+{<TitleComponent/>} - Specifies opening as well as closing tag of a component altogether. (Here it will render Title Component)
+
+{<TitleComponent></TitleComponent>} - It specifies opening and closing tags of a component separately. (Here it will render Title Component).
